@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Restaurante</title>
+        <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAF8F0; /* Fondo más claro */
+        }
+
+        header {
+            background-color: #006F7D; /* Color verde suave */
+            color: #FEF5ED; /* Color crema para el texto */
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #006A7D; /* Color azul verdoso */
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #FEF5ED; /* Color crema */
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #006D7D; /* Color azul verdoso oscuro */
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #006D7D; /* Color azul oscuro para títulos de sección */
+        }
+
+        .menu-item {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #C9B1BD; /* Borde suave */
+            border-radius: 5px;
+            background-color: #FEF5ED; /* Fondo crema para los items */
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Pepito Bar</h1>
+    </header>
+
+    <nav>
+        <a href="#tapas">Tapas</a>
+        <a href="#platos-principales">Platos Principales</a>
+        <a href="#postres">Postres</a>
+        <a href="#bebidas">Bebidas</a>
+    </nav>
+
+    <section id="tapas">
+        <h2>Tapas</h2>
+        <div class="menu-item">
+            <h3>Croquetas de la casa</h3>
+            <p>6 croquetas a elegir: jamón, pollo, bacalao, queso, rabo de toro</p>
+            <p>Precio: 6€</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Patatas bravas</h3>
+            <p>Patatas fritas en dados con una deliciosa salsa brava casera</p>
+            <p>Precio: 4'5€</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Ensalada César</h3>
+            <p>Lechuga, tiras de pollo, pan tostado y salsa césar</p>
+            <p>Precio: 6€</p>
+        </div>
+
+	<div class="menu-item">
+            <h3>Lagrimitas de pollo</h3>
+            <p>Tiras de pollo rebozadas + salsa a elegir(miel y mostaza, barbacoa,...)</p>
+            <p>Precio: 8€</p>
+        </div>
+
+    </section>
+
+    <section id="platos-principales">
+        <h2>Platos Principales</h2>
+        <div class="menu-item">
+            <h3>Bacalao Dorado</h3>
+            <p>Revuelto de bacalao, patatas paja, cebolla, huevo y perejil</p>
+            <p>Precio: 11€</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Solomillo al gusto</h3>
+            <p>Ala brasa, a la pimienta, al ajo tostado o con rulo de cabra y cebolla caramelizada</p>
+            <p>Precio: 14€</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Fritura variada</h3>
+            <p>Chipirones, calamares, cazón, boquerones y langostinos en tempura</p>
+            <p>Precio: 14€</p>
+        </div>
+
+	<div class="menu-item">
+            <h3>Carrillada ibérica</h3>
+            <p>Carrillada de cerdo al vino tinto</p>
+            <p>Precio: 12€</p>
+        </div>
+
+    </section>
+
+    <section id="postres">
+        <h2>Postres</h2>
+        <div class="menu-item">
+            <h3>Tarta de queso</h3>
+            <p>Tarta casera de queso con mermelada de fresa</p>
+            <p>Precio: 5€</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Pastel de manzana</h3>
+            <p>Pastel de manzana acompañado de helado de nata y canela</p>
+            <p>Precio: 4'5€</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Coulant</h3>
+            <p>Coulant de chocolate con helado de vainilla</p>
+            <p>Precio: 3'5€</p>
+        </div>
+
+    </section>
+
+    <section id="bebidas">
+        <h2>Bebidas</h2>
+        <div class="menu-item">
+            <h3>Botellín de cerveza</h3>
+            <p>Estrella Galicia, Heineken, Alambra, Radler, 0'0 Sin Alcohol</p>
+            <p>Precio: 2'5€</p>
+        </div>
+
+	<div class="menu-item">
+            <h3>Refrescos</h3>
+            <p>Coca-cola, Fanta limón/naranja, Aquarius, Nestea</p>
+            <p>Precio: 2€</p>
+        </div>
+
+	<div class="menu-item">
+            <h3>Vinos</h3>
+            <p>Blanco, tinto o rosado (preguntar disponibilidad)</p>
+            <p>Precio: 2-3'5€ copa</p>
+        </div>
+
+    </section>
+
+</body>
+</html>
